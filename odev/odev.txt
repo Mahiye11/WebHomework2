@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zeynep'in Mutfak Tarifleri</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+        h2{
+            text-align: center;
+        }
+        header {
+            background-color: lightblue;
+            padding: 20px;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            text-align: center;
+            background-color: #fff;
+            
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            font-weight: bold;
+            color: darkblue;
+        }
+        article {
+            padding: 20px;
+            text-align: left;
+        }
+        table {
+            width: 80%;
+            margin: 30px auto;
+            
+            background-color: lightblue;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: lightblue;
+            margin-top: 20px;
+        }
+        .recipe-container {
+            display: flex;
+            justify-content: space-between;
+            max-width: 900px;
+            margin: auto;
+        }
+        .recipe-container > div {
+            width: 48%;
+        }
+        .recipe-container img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>ZEYNEP'İN MUTFAK TARİFLERİ</h1>
+</header>
+
+<section>
+    <p style="font-family: cursive; text-align: center; font-size: 1.2em;">
+        TÜRK MUTFAĞININ BİRBİRİNDEN EŞSİZ LEZZETLERİNİ ANANELERİMİZİN TARİFLERİ İLE BULACAĞINIZ ADRES.
+    </p>
+</section>
+
+<section id="galeri">
+    <h2>POPÜLER YEMEKLER</h2>
+    <nav>
+        <ul>
+            <li><a href="https://www.nefisyemektarifleri.com/liste/yilin-populer-ana-yemek-tarifleri/">Ana Yemekler</a></li>
+            <li><a href="https://www.nefisyemektarifleri.com/liste/yilin-populer-corba-tarifleri/">Çorba</a></li>
+            <li><a href="https://www.nefisyemektarifleri.com/kategori/tarifler/tatli-tarifleri/">Tatlılar</a></li>
+        </ul>
+    </nav>
+    <article>
+        <h3><span style="color: gold;">&#9733;</span> Terbiyeli Tavuk Çorbası</h3>
+        <div class="recipe-container">
+            <div>
+                <h4>İçindekiler</h4>
+                <ul>
+                    <li>2 adet haşlanmış tavuk budu</li>
+                    <li>3 yemek kaşığı şehriye</li>
+                    <li>2 yemek kaşığı zeytinyağ</li>
+                    <li>2 yemek kaşığı yoğurt</li>
+                    <li>1.5 yemek kaşığı un</li>
+                    <li>1 adet yumurtanın sarısı</li>
+                </ul>
+                <img src="resim1.webp" alt="Terbiyeli Tavuk Çorbası" />
+            </div>
+            <div>
+                <h4>Yapılışı</h4>
+                <p>Önce tavukları haşlıyoruz. Terbiyesini hazırlıyoruz, un, yoğurt ve yumurtayı bir kapta çırpıyoruz. İçine yarım su bardağı su ilave edip iyice pütürsüz olacak şekilde çırpıyoruz. Haşlanmış tavuğun suyundan sıcak olarak içine üç kepçe kadar alıp terbiyesini ilave edip iyice çırpıyoruz. Çorbayı hazırlayacağım tencereye sıvı yağ ilave ediyoruz, şehriyeyi hafif rengi dönmeden kavuruyoruz. Sarımsağı rendeleyip içine ilave ediyoruz ve suyu ilave ediyoruz. Parçalanmış tavukları ekleyip bir taşım kaynatıyoruz. Çorbanın içine terbiyesini ilave edip bir taşım kaynatıyoruz. İçine yarım sıkılmış limon suyunu ve tuzunu ilave ederek çorbamızı bir taşım daha kaynatıyoruz. Kıvam alınca ocağı kapatıyoruz. Üzerine tereyağ ve kırmızı biber kavurup servise sunuyoruz. Afiyet olsun.</p>
+            </div>
+        </div>
+    </article>
+
+    <article>
+        <h3><span style="color: gold;">&#9733;</span> Patates Yatağında Soslu Köfte</h3>
+        <div class="recipe-container">
+            <div>
+                <h4>İçindekiler</h4>
+                <ul>
+                    <li>2 adet soğan</li>
+                    <li>5-6 dal maydanoz</li>
+                    <li>400 gram kıyma</li>
+                    <li>1 adet yumurta</li>
+                    <li>1 çay bardağından biraz eksik galeta unu</li>
+                    <li>1 tatlı kaşığı tuz</li>
+                    <li>1 tatlı kaşığı kimyon</li>
+                    <li>1 çay kaşığı karabiber</li>
+                    <li>Çeyrek çay kaşığı karbonat</li>
+                    <li>Yarım çay bardağı su</li>
+                </ul>
+                <img src="resim3.webp" alt="Patates Yatağında Soslu Köfte" />
+            </div>
+            <div>
+                <h4>Yapılışı</h4>
+                <p>Soğan ve maydanozu rondodan geçirelim ve yoğurma kabına alalım. Üzerine kıymayı, yumurtayı, galeta ununu, tuz, karabiber, kimyon ve karbonatı ekleyerek yoğuralım. Birkaç dakika boyunca güzelce yoğuralım. Sona doğru azar azar yarım çay bardağı suyu ekleyerek yoğurmaya devam edelim. Köfte harcımız hazır olduktan sonra buzdolabına kaldırarak 1 saat kadar dinlendirelim. Sosu için küçük bir tavaya sıvı yağı ve rendelediğimiz domatesi alarak domates suyunun büyük kısmını çekinceye kadar pişirelim. Suyunu çekmeye yakın tuz ve salçayı ekleyelim ve kavuralım. Son olarak kekiği ekleyerek ocaktan alalım. Geniş bir tavaya bir miktar sıvı yağ alarak kızdıralım. Küp küp doğradığımız patatesleri tavaya alarak kızartalım. Kızaran patatesleri kağıt havlu serdiğimiz tabağa alalım. Tavadaki yağın bir kısmını alalım. Az miktarda yağ kalmalı tavada. Tavaya köfteleri alarak ara ara çevirerek kızartalım. Köfteler de kızarınca patateslerin yanına alalım. Son olarak biber ve domatesleri de aynı tavada çok az kızartalım. Diğer tarafta sarımsaklı yoğurt için yoğurt, rendelenmiş sarımsak ve tuzu karıştıralım. Artık servis tabağını hazırlayabiliriz. Geniş bir tabağa patatesleri yerleştirelim. Üzerine sarımsaklı yoğurdu ekleyelim. Ardından sosu ekleyelim ve son olarak köfte, biber ve domatesleri ekleyelim. Sos kasesinin içine çok az zeytinyağı ekliyorum ve içindeki sos kalıntısıyla birlikte köftelerin üzerine dağıtıyorum.</p>
+            </div>
+        </div>
+    </article>
+
+    <article>
+        <h3><span style="color: gold;">&#9733;</span> Fırında Sütlaç</h3>
+        <div class="recipe-container">
+            <div>
+                <h4>İçindekiler</h4>
+                <ul>
+                    <li>1 litre süt</li>
+                    <li>1 su bardağı şeker</li>
+                    <li>Yarım su bardağı pirinç</li>
+                    <li>3 yemek kaşığı buğday nişastası</li>
+                    <li>1 paket vanilya</li>
+                    <li>2 su bardağı su</li>
+                    <li>Yarım su bardağı süt (nişastayı açmak için)</li>
+                </ul>
+                <img src="resim2.webp" alt="Fırında Sütlaç" />
+            </div>
+            <div>
+                <h4>Yapılışı</h4>
+                <p>Fırında sütlaç için öncelikle pirinci haşlayalım. Pirinçleri güzelce yıkadıktan sonra 2 su bardağı su ile pirinçler yumuşayıp pişene kadar haşlayın. Çok az sulu kalacaktır. Diğer malzemeleri ekleyelim ve sütlacı pişirelim. Haşlanan pirinçlerin üzerine sütü, vanilyayı ilave edip kaynatın. Bu arada bir kap içerisinde nişasta ve sütü (suyu) pürüzsüz kıvam alıncaya kadar karıştırın. Karışım kaynamaya başlayınca şekeri ve yarım su bardağı sütle karıştırdığınız 3 yemek kaşığı buğday nişastasını ilave ediniz. 10-15 dk. daha kaynatıp ocağın altını kapatın. Sütlaçları fırına sürelim. Fırın için uygun ısıya dayanıklı sütlaç kaselerine sütlaçlarınızı paylaştırın. Tepsinize soğuk su doldurun ve sütlaç kaplarını fırın tepsinize dizin (Tepsideki su sütlaç kaplarının yarısına kadar gelecek). Tepsiyi fırınınızın en üst rafına yerleştirin. 180 derecede, sütlaçlarınız kızarana kadar fırınlayın. Afiyet olsun.</p>
+            </div>
+        </div>
+    </article>
+</section>
+
+<section id="tablo">
+    <h2>Yemek Kategorileri</h2>
+    <table>
+        <tr>
+            <th>Çorba</th>
+            <th>Ana Yemek</th>
+            <th>Tatlı</th>
+        </tr>
+        <tr>
+            <td>Terbiyeli Tavuk Çorbası</td>
+            <td>Patates Yatağında Soslu Köfte</td>
+            <td>Fırında Sütlaç</td>
+        </tr>
+        <tr>
+            <td>Domates Çorbası</td>
+            <td>Pırasa Yemeği</td>
+            <td>Kazandibi</td>
+        </tr>
+        <tr>
+            <td>Mercimek Çorbası</td>
+            <td>Lazanya</td>
+            <td>Laz Böreği</td>
+        </tr>
+    </table>
+</section>
+
+<footer>
+    <p>&copy; 2025 Zeynep'in Mutfak Tarifleri. Tüm hakları saklıdır.</p>
+</footer>
+
+</body>
+</html>
